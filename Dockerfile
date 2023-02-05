@@ -1,4 +1,4 @@
-FROM debian:10.2
+FROM debian:buster
 
 RUN apt-get update && apt-get -y upgrade
 RUN apt-get -y install build-essential gcc-multilib qemu-system-x86 netcat-openbsd
